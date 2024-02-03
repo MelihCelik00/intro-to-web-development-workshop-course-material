@@ -48,4 +48,4 @@ Author: @Melih Safa Çelik
    - [ArcGIS Javascript](./maplibraries/arcgisjs)
    - [Maplibre GL](./maplibraries/maplibregl)
 
-**[Future Steps](./project/)**
+**[Future Steps](./futuresteps/)**
