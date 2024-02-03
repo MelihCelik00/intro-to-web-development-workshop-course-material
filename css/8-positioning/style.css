@@ -1,0 +1,81 @@
+html  {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 4000px;
+    padding: 0;
+    margin: 0;
+}
+
+.absolute {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    background-color: #f00;
+}
+
+#container {
+    background-color: rgb(107, 106, 106);
+    width: 500px;
+    height: 500px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+#first {
+    background-color: red;
+}
+
+#second {
+    background-color: green;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    z-index: 20;
+}
+
+#third {
+    background-color: blue;
+    position: relative;
+    z-index: 15;
+}
+
+#container-two{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#test {
+    background-color: yellow;
+    position: absolute;
+    right: 25px;
+}
+
+.up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.page h3 {
+    font: bold 40px Arial;
+    background-color: chocolate;
+    color: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 0;
+    position: sticky;
+    top: 20px;
+}
+
+.page .text {
+    height: 550px;
+}

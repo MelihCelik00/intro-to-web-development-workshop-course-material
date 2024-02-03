@@ -1,0 +1,12 @@
+span{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    visibility: visible;
+
+}
+
+div {
+    display: inline-block;
+}

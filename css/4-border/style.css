@@ -1,0 +1,50 @@
+.border {
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.border-left{
+    width: 100px;
+    height: 100px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: green;
+    background-color: gold;
+}
+
+.border-radius{
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    background-color: darkcyan;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.radius{
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    background-color: darkcyan;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 12px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.outline {
+    width: 100px;
+    height: 100px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: green;
+    background-color: gold;
+    outline-offset: 15px;
+}

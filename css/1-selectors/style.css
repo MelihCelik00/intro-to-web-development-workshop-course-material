@@ -1,0 +1,32 @@
+p {
+    font-size: 15px;
+    color: red;
+}
+
+#footer {
+    border: 1px solid #000;
+    color: gold;
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+h2, h3, h4 {
+    color: blue;
+}
+
+/*div span {*/
+/*    color: green;*/
+/*    border: 1px solid #000;*/
+/*}*/
+
+div>b {
+    color: red;
+}
+div>em {
+    color: blue;
+}
