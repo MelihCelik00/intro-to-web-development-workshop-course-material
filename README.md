@@ -13,7 +13,7 @@ Author: @Melih Safa Çelik
 * Part 2 - Fundamentals of HTML & CSS
   * What are [HTML](./html) and [CSS](./css)?
   * HTML tags and CSS selectors
-  * Creating our first page!
+  * Creating our first pages!
 * Part 3 - Fundamentals of [Javascript](./javascript/basics/)
   * What is JavaScript and why do we use it?
   * [Basics](./javascript/basics/)
