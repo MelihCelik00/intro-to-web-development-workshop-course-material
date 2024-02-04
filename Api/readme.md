@@ -1,8 +1,4 @@
- <h1 align="center">GIS Bootcamp Eğitim Kaynakları</h1>
- <p align="center">
- <!-- <img src="./banner02.png"> -->
-  <br />
-</p>
+ <h1 align="center">API</h1>
 
 
    - [What is API (Application Programming Interface)](./What%20is%20API%20%28Application%20Programming%20Interface%29/)
