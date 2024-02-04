@@ -37,15 +37,12 @@ Author: @Melih Safa Çelik
    - [REST Api vs RESTful Api](./Api/REST%20Api%20vs%20RESTful%20Api/)
    - [REST Api CRUD Operation](./Api/REST%20Api%20CRUD%20Operation/)
    - [Simple REST Api Example](./Api/Simple%20REST%20Api%20Example/)
-   - [What is Proxy](./Api/What%20is%20Proxy/)
-   - [Simple Proxy Implemantatiton Example](./Api/Simple%20Proxy%20Implemantatiton%20Example/)
 
 * Part 3 - [Map Libraries](./maplibraries/)
    - [Google Maps](./maplibraries/googlemaps)
    - [Openlayers](./maplibraries/openlayers)
-   - [Cesium]()
+   - [Cesium](./maplibraries/cesium/)
    - [Leaflet](./maplibraries/leaflet)
    - [ArcGIS Javascript](./maplibraries/arcgisjs)
-   - [Maplibre GL](./maplibraries/maplibregl)
 
 **[Future Steps](./futuresteps/)**
