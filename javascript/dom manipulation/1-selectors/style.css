@@ -1,0 +1,16 @@
+#element-section * {
+  display: block;
+  border : 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.flash {
+  background-color: orange;
+}
+
+#control-section button {
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+}

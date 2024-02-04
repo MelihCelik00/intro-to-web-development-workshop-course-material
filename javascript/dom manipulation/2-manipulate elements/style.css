@@ -1,0 +1,51 @@
+section {
+  margin: 10px;
+  border:1px solid black
+}
+
+#create-elements-section {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow:auto;
+
+}
+
+#styling-elements-section {
+  padding: 20px;
+  height: 300px;
+}
+
+#control-section {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#control-section div {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#control-section div button {
+  padding: 5px;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+.demo-class {
+  background: orange;
+  color: aliceblue;
+}
