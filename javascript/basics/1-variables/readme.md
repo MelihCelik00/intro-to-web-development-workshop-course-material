@@ -58,7 +58,7 @@ const x = 'hello';
 - output: Reference Error
 ```
 
-- `var` ile tanımlanan değişkenler window objesinden erişilebilir, `let` ve `const` ile tanımlanan değişkenler erişilemez.
+- Variables defined with `var` can be accessed from the window object, while those defined with `let` and `const` cannot be accessed.
 
 ```
 {
