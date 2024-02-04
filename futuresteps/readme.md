@@ -1,0 +1,23 @@
+# Future Steps
+
+- The project's goal is determined and idea design is made.
+- The spatial and non-spatial data set to be used in the project is identified and edited. These can be data sets such as maps, visuals, or statistics.
+  - [IBB Open Data Portal](https://data.ibb.gov.tr/)
+  - [MongoDB](https://www.mongodb.com/home)
+  - [PostgreSQL](https://www.postgresql.org/)
+- If necessary, these data are published from the database and served by an API.
+  - [ExpressJS](https://expressjs.com/)
+  - [DotNET](https://dotnet.microsoft.com/en-us/)
+  - [Django](https://www.djangoproject.com/)
+- The map platform and/or framework to be used in the project is determined.
+  - [ArcGIS](https://www.arcgis.com/index.html)
+  - [Mapbox](https://www.mapbox.com/)
+  - [OpenLayers](https://openlayers.org/)
+  - [MapLibre](https://maplibre.org/)
+  - [Cesium](https://cesium.com/)
+- The application interface and user experience are designed. How data will be served or interacted with is determined according to the purpose of the application.
+- The application is developed using the chosen platform and/or framework.
+  - [JavaScript](https://www.javascript.com/)
+  - [React](https://reactjs.org/)
+  - [Angular](https://angular.io/)
+  - [Vue](https://vuejs.org/)
