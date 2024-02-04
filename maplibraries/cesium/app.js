@@ -1,5 +1,5 @@
 // Access token of instructor
-Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZjUwYjk4Mi1lMDdkLTQ2NzEtYTc1Mi02ZjQ0NWEwYmNmNTQiLCJpZCI6MTkzODcwLCJpYXQiOjE3MDcwNjAwMjh9.E4MD8IW6wH7DAJznEmO2q8kpSdZG_dwpL9lstCmKUBk"
+Cesium.Ion.defaultAccessToken = "enter your token here";
 
 let viewer = new Cesium.Viewer('cesiumContainer', {
     // terrainProvider: Cesium.createWorldTerrain()

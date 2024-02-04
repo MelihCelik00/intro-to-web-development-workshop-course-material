@@ -1,12 +1,8 @@
  <h1 align="center">Openlayers</h1>
- <p align="center">
- <img src="../../banner02.png">
-  <br />
-</p>
 
-- Openlayers herhangi bir web uygulamasına dinamik haritalar ekleyebileceğiniz açık kaynak javascript kütüphanesidir. Canvas 2D ve WebGL teknolojilerini içeren Openlayers kütüphanesi ile mobil dostu, raster veya vektörel verilerden oluşan harita uygulamaları geliştirilebilir. Topluluk tarafından geliştirilen eklentiler ile Openlayers kütüphanesinin kapsamı kolaylıkla genişletilebilir.
+- Openlayers is an open-source JavaScript library that allows you to add dynamic maps to any web application. The Openlayers library, which includes Canvas 2D and WebGL technologies, can be used to develop mobile-friendly map applications consisting of raster or vector data. The scope of the Openlayers library can be easily expanded with plugins developed by the community.
 
-- Openlayers kütüphanesinin temel bileşeni olan `Map`, `View`, bir veya daha fazla katman ve HTML dosyasına eklenmiş bir `DOM Element` ihtiyaç duyar.
+- The `Map`, `View`, one or more layers, and a `DOM Element` added to an HTML file are required for the basic components of the Openlayers library.
 
 ```
 const map = new ol.Map({
@@ -18,9 +14,9 @@ const map = new ol.Map({
 })
 ```
 
-- Harita bileşenleri anlamlı olabilmek için mutlaka harita katmanlarına ihtiyaç duyar. Vektörel veya raster veriyi kapsayan katmanlar farklı tiplerde olabilmektedirler. Harita üzerinden herhangi bir bilgi alınmayacak veya harita ile aksiyona girilmeyecekse raster yoksa vektörel katmanlar kullanılmaktadır.
-- Openlayers kütüphanesinde katman oluşturmak için öncelikle katmanın kaynağı oluşturulmalıdır. Kullanılacak katman tipine göre kaynak ve katman türü uyumlu seçilmelidir. Altlık olarak kullanılacak katmanlar genel olarak raster türünde oldukları için `ol.source.Tile` tipi kullanılır. Openlayers geliştiricilerin hayatlarını kolaylaştırmak için bazı açık kaynak raster katman kaynaklarını ön tanımlı olarak kütüphane içinde barındırmaktadır.
-- OpenStreetMap tarafından açık kaynak olarak sunulan altlık harita katmanı şu şekilde tanımlanır ve harita bileşenine eklenir;
+- Map components require map layers to be meaningful. Layers that cover vector or raster data can be of different types. If no information will be taken from the map or no action will be taken with the map, vector layers are used if there is no raster.
+- To create a layer in the Openlayers library, the source of the layer must first be created. The source and layer type should be selected according to the type of layer to be used. Since the layers to be used as base maps are generally of raster type, the `ol.source.Tile` type is used. Openlayers developers have some open source raster layer sources pre-defined in the library to make their lives easier.
+- The base map layer, which is offered as open source by OpenStreetMap, is defined as follows and added to the map component;
 
 ```
 const osmLayer = new ol.layer.Tile({
@@ -29,7 +25,7 @@ const osmLayer = new ol.layer.Tile({
 map.addLayer(osmLayer);
 ```
 
-- Openlayers kütüphanesinde veriler katman kaynakları üzerinden yönetildiği için tekil bir nokta oluşturulmak istense dahi öncelikle bir katman oluşturulmalı ardından `Feature` objesi katmanın kaynağına eklenmelidir.
+- Since data is managed through layer sources in the Openlayers library, even if a single point is to be created, a layer must first be created and then the `Feature` object must be added to the layer source.
 
 ```
 const marker = new ol.Feature({
@@ -44,7 +40,7 @@ const vectorLayer = new ol.layer.Vector({
 map.addLayer(vectorLayer);
 ```
 
-- Openlayers kütüphanesi için `event listener` harita bileşenine eklenebilmektedir. Bir vektörel katmandan bilgi alınmak istendiğinde harita bileşenine tanımlanan `event listener` fonksiyonu içine tıklanan noktadaki objeleri dönen `getFeatures` metodu çalıştırılır.
+- An `event listener` can be added to the map component for the Openlayers library. When information is desired from a vector layer, the `getFeatures` method that returns the objects at the clicked point is called within the `event listener` function defined for the map component.
 
 ```
 const getFeatureName = function (pixel) {
