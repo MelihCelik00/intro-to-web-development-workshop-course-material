@@ -5,4 +5,3 @@
    - [Why REST Api](./2-Why%20REST%20Api/)
    - [REST Api vs RESTful Api](./3-REST%20Api%20vs%20RESTful%20Api/)
    - [REST Api CRUD Operation](./4-REST%20Api%20CRUD%20Operation/)
-   - [Simple REST Api Example](./5-Simple%20REST%20Api%20Example/)
