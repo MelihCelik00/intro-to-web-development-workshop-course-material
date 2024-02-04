@@ -1,16 +1,16 @@
-# Harita Kütüphaneleri
+# Map Libraries
 
-    - Kullanım alanları
-    - Kütüphaneler
+    - Usage areas
+    - Libraries
         - Google Maps
         - Openlayers
         - ArcGIS Javascript
         - Leaflet
         - Maplibre GL
-    - Kütüphanelerin NPM indirme sayıları
-    - Kütüphanelerin arasındaki farklar
-    - Kodlama
-        - Harita bileşeninin oluşturulması
-        - Altlık katman ekleme
-        - Marker/Katman ekleme
-        - Event listener ekleme
+    - NPM download numbers of libraries
+    - Differences between libraries
+    - Coding
+        - Creating map component
+        - Adding base layer
+        - Adding Marker/Layer
+        - Adding event listener
