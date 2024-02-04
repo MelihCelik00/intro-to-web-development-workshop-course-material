@@ -36,7 +36,6 @@ Author: @Melih Safa Çelik
    - [Why REST Api](./Api/Why%20REST%20Api/)
    - [REST Api vs RESTful Api](./Api/REST%20Api%20vs%20RESTful%20Api/)
    - [REST Api CRUD Operation](./Api/REST%20Api%20CRUD%20Operation/)
-   - [Simple REST Api Example](./Api/Simple%20REST%20Api%20Example/)
 
 * Part 3 - [Map Libraries](./maplibraries/)
    - [Google Maps](./maplibraries/googlemaps)
